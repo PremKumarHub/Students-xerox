@@ -1,0 +1,10 @@
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: relative; /* Makes it stay at the bottom naturally */
+    bottom: 0;
+  }
+  

@@ -1,0 +1,30 @@
+nav.navbar {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: rgb(184, 27, 27);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  color:rgb(226, 87, 23)
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links li a {
+  color: rgb(24, 19, 19);
+  text-decoration: none;
+  font-size: 18px;
+}

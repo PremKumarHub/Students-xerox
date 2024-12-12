@@ -1,3 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('./assets/background.png'); /* Replace with your image URL */
+  background-size: cover; /* Make sure the image covers the whole screen */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+  background-position: center; /* Ensure the image is centered */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+}
+
 .App {
   text-align: center;
 }
