@@ -21,23 +21,26 @@ const Hero = () => {
 
   return (
     <div className="hero">
+    <div className="hero-container">
       <div className="carousel">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
           className="carousel-image"
         />
-        <button className="carousel-btn prev" onClick={handlePrev}>
-          &#10094;
-        </button>
-        <button className="carousel-btn next" onClick={handleNext}>
-          &#10095;
-        </button>
+ 
       </div>
       <div className="hero-content">
  
         {/* <button className="order-now-btn">Print Now</button> */}
       </div>
+    </div>
+    <button className="carousel-btn prev" onClick={handlePrev}>
+          &#10094;
+        </button>
+        <button className="carousel-btn next" onClick={handleNext}>
+          &#10095;
+        </button>
     </div>
   );
 };

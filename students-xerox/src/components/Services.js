@@ -3,7 +3,7 @@ import './Services.css';
 
 const Services = () => {
   const services = [
-    { title: 'Visiting Cards', img: 'https://www.swiftpro-printer.com/wp-content/uploads/2020/07/pvc-cards.jpg' },
+    { title: 'Duplicate Cards', img: 'https://www.swiftpro-printer.com/wp-content/uploads/2020/07/pvc-cards.jpg' },
     { title: 'Spiral Binding', img: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/diary-notebook/v/m/y/a4-notebook-smooth-paper-a4-soft-cover-spiral-notebook-4-pack-original-imagmey3hpjnhyf7.jpeg?q=90&crop=false' },
     { title: 'Document Printing', img: 'https://uniquecopier.in/images/products/doc1.jpg' },
     { title: 'Book Printing', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZtNzWOnO3lpF9P6z6-yJ6vZHIo4y_3GInw&s' },
