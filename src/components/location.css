@@ -1,0 +1,42 @@
+.location {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .location-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .location-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .map-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  

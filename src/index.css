@@ -1,0 +1,40 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+
+
+/* Services styles */
+.services-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 250px;
+  margin: 20px;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-card h3 {
+  margin-top: 10px;
+}
+
+/* Footer styles */
+

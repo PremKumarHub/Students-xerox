@@ -1,0 +1,22 @@
+.attractive-text-section {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .main-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Matches body text color */
+  }
+  
+  .main-text span {
+    color: #ff5733; /* Highlighted color for emphasis */
+  }
+  
+  .sub-text {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
