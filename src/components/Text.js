@@ -10,7 +10,11 @@ const App = () => {
         </h2>
         <p className="good-stuff-text">
          From academic documents to personalized prints, we deliver excellence service.  
-        <strong>Contact us on WhatsApp now: <a href="https://wa.me/919626352266" target="_blank">+91 9626352266</a>
+        <strong>Contact us on WhatsApp now:
+        <a href="https://wa.me/919626352266" target="_blank" rel="noopener noreferrer">
+        +91 9626352266
+</a>
+
         </strong>
          </p>
     </div>
