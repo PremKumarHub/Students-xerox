@@ -1,4 +1,5 @@
 nav.navbar {
+
   background-color: #f0f0f0;
   color: rgb(184, 27, 27);
   padding: 15px;
@@ -6,6 +7,7 @@ nav.navbar {
   justify-content: space-between;
   align-items: center;
   margin-bottom:-10px;
+  
 
 }
 
