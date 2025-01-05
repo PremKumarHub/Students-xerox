@@ -17,7 +17,7 @@ const Navbar = () => {
         &#9776;
       </button>
       <ul className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <li><a href=".hero">Home</a></li>
+        <li><a href="#services">Home</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#location">Location</a></li>
         <li><a href="#contactus">Contact</a></li>
