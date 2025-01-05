@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
     <div className="hero-container">
       <div className="carousel">
         <img
