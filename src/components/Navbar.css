@@ -1,34 +1,87 @@
+/* General Navbar Styling */
 nav.navbar {
-
   background-color: #f0f0f0;
   color: rgb(184, 27, 27);
-  padding: 15px;
+  padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:-10px;
-  
-
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-logo h1 {
   margin: 0;
-  color:rgb(226, 87, 23)
+  color: rgb(226, 87, 23);
+  font-family: 'Arial', sans-serif;
 }
 
+/* Navbar Links for Desktop */
 .navbar-links {
   list-style: none;
-  margin: 0;
+  margin-right: 50px;
   padding: 0;
   display: flex;
+  gap: 20px; /* Add gap between menu items */
+  transition: transform 0.3s ease-in-out;
 }
 
 .navbar-links li {
-  margin-left: 20px;
+  margin: 0; /* Remove individual margins */
 }
 
 .navbar-links li a {
   color: rgb(24, 19, 19);
   text-decoration: none;
   font-size: 18px;
+  padding: 8px 12px; /* Add padding for clickable area */
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px; /* Add slight rounding for better appearance */
+}
+
+.navbar-links li a:hover {
+  color: #fff;
+  background-color: rgb(226, 87, 23);
+}
+
+/* Hamburger Menu Button */
+.navbar-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(184, 27, 27);
+}
+
+/* Responsive Styles for Smaller Devices */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust based on navbar height */
+    right: 10px; /* Add padding from the right */
+    background-color: #f0f0f0;
+    width: 90%; /* Ensure it doesn't touch screen edges */
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Add slight rounding for the dropdown */
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .navbar-hamburger {
+    display: block;
+  }
 }
